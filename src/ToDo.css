@@ -1,0 +1,169 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Rubik+Vinyl&display=swap');
+.container{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('./todoimage/containerbac.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  position: relative;
+}
+.title{
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-family: 'Rubik Vinyl', cursive;
+  top: 23%;
+}
+.initial-shape{
+  position: absolute;
+  width: 70%;
+  min-height: 34%;
+  /* border: 3px solid white; */
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 33%;
+}
+.first{
+  width: 100%;
+  height: 250px;
+  background-image: url('./todoimage/black-monstera-leaves-background-wallpaper_53876-102420.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inp-container{
+  display: flex;
+  justify-content: space-around;
+}
+.inp{
+ width: 80%; 
+ padding-left: 5px;
+ font-family: 'Roboto Mono', monospace;
+ background-color:transparent;
+ border-bottom: 2px solid white;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ color: white;
+ height: 30px;
+ font-size: 20px;
+ outline: none;
+ margin-bottom: 23px;
+ padding-left: 10px;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: white;
+}
+.add{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  border-color: transparent;
+  cursor: pointer;
+  background-color:transparent;
+  color: #24273d;
+  height: 30px;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.item-container{
+  display: flex;
+  justify-content:space-between;
+  background-color:transparent;
+  border-bottom: 2px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.checkinp{
+  background-color: #e7ffba;
+  color: white;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: transparent;
+  margin-top: 10px;
+}
+.date{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.item{
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+.btn-delete{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  border-color: transparent;
+  cursor: pointer;
+  background-color:white;
+  color: #24273d;
+  height: 20px;
+  width: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  background-color: transparent;
+}
+.general-btns{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  border-color: transparent;
+  cursor: pointer;
+  background-color:transparent;
+  color: #24273d;
+  height: 30px;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.focus{
+  border-bottom: 2px solid #731b79;
+}
+.btn-icon-container{
+  display: flex;
+  justify-content: space-between;
+}
+.fa-solid {
+  font-size: 20px;
+  margin-right: 5px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
+.inp-depend{
+  width: 70%; 
+  padding-left: 5px;
+  font-family: 'Roboto Mono', monospace;
+  background-color:transparent;
+  border-bottom: 2px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  height: 30px;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 23px;
+  padding-left: 10px;
+}
+
